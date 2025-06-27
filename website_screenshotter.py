@@ -188,7 +188,7 @@ def screenshot_website_element(website_list: list[dict], window_size: dict, run_
                 else:
                     # Appends the full photos to file_locations
                     file_locations.append(save_path)
-                print("Images saved...")
+            print("Images saved...")
     # Ensures the browser always quits
     finally:
         browser.quit()
